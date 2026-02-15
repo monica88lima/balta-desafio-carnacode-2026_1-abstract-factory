@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternChallenge", "DesignPatternChallenge\DesignPatternChallenge.csproj", "{B93A3A36-8802-4374-8952-B660DC9A146D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternChallenge.Tests", "DesignPatternChallenge.Tests\DesignPatternChallenge.Tests.csproj", "{EB31DD4A-EF96-4AAD-B225-AA5A841B85D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B93A3A36-8802-4374-8952-B660DC9A146D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B93A3A36-8802-4374-8952-B660DC9A146D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B93A3A36-8802-4374-8952-B660DC9A146D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB31DD4A-EF96-4AAD-B225-AA5A841B85D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB31DD4A-EF96-4AAD-B225-AA5A841B85D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB31DD4A-EF96-4AAD-B225-AA5A841B85D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB31DD4A-EF96-4AAD-B225-AA5A841B85D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
