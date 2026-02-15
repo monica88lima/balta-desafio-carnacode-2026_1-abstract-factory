@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore src/DesignPatternChallenge/DesignPatternChallenge.csproj
+        run: dotnet restore src/DesignPatternChallenge/DesignPatternChallenge.sln
 
       - name: Build
-        run: dotnet build src/DesignPatternChallenge/DesignPatternChallenge.csproj --configuration Release --no-restore
+        run: dotnet build src/DesignPatternChallenge/DesignPatternChallenge.sln --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test src/DesignPatternChallenge/DesignPatternChallenge.Tests/DesignPatternChallenge.Tests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test src/DesignPatternChallenge/DesignPatternChallenge.sln --configuration Release --no-build --verbosity normal
